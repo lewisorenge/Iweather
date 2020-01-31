@@ -54,7 +54,7 @@
           android:layout_gravity="center"
           android:text="@{locationName}"
           android:textAppearance="@style/TextAppearance.Aurora.Toolbar"
-          tools:text="New York" />
+          tools:text="Nairobi" />
       </androidx.appcompat.widget.Toolbar>
 
     </com.google.android.material.appbar.AppBarLayout>
