@@ -8,7 +8,7 @@ Iweather is  weather app using Dark Sky's forecast API. When the app is initiall
 In order to hide the access tokens for Mapbox and Dark Sky, access tokens are purposely not checked into version control. Thus, if you checkout this project and try compiling, the build will fail. To resolve this issue, open your local `gradle.properties` file stored in `<USER NAME>/.gradle/gradle.properties` (on Mac) and add the following lines with your own access token:
 
 ## Architecture
-Aurora is written in Kotlin using a single activity MVVM architecture. The app relies heavily on the [Android Bindings library](https://developer.android.com/topic/libraries/data-binding/) to populate the views and the [ViewModel/LiveData](https://developer.android.com/topic/libraries/architecture/viewmodel) Android Architecture Components library to extract logical data from the app's views.
+It is written in Kotlin using a single activity MVVM architecture. The app relies heavily on the [Android Bindings library](https://developer.android.com/topic/libraries/data-binding/) to populate the views and the [ViewModel/LiveData](https://developer.android.com/topic/libraries/architecture/viewmodel) Android Architecture Components library to extract logical data from the app's views.
 
 The app targets the latest API level, with a min sdk version of 21, and makes use of the new [Material Design Components](https://material.io/develop/android/docs/getting-started/) library (The base app theme extends the material dark style.)
 
