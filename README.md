@@ -6,6 +6,8 @@ Iweather is  weather app using Dark Sky's forecast API. When the app is initiall
 
 ### API Keys
 In order to hide the access tokens for Mapbox and Dark Sky, access tokens are purposely not checked into version control. Thus, if you checkout this project and try compiling, the build will fail. To resolve this issue, open your local `gradle.properties` file stored in `<USER NAME>/.gradle/gradle.properties` (on Mac) and add the following lines with your own access token:
+mapboxAccessToken="MAPBOX_ACCESS_TOKEN_HERE"
+darkskyKey="DARK_SKY_TOKEN_HERE"
 
 ## Architecture
 It is written in Kotlin using a single activity MVVM architecture. The app relies heavily on the [Android Bindings library](https://developer.android.com/topic/libraries/data-binding/) to populate the views and the [ViewModel/LiveData](https://developer.android.com/topic/libraries/architecture/viewmodel) Android Architecture Components library to extract logical data from the app's views.
